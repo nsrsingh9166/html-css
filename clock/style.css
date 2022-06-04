@@ -1,0 +1,33 @@
+*{
+background-color: rgb(132, 132, 193);
+margin-top: 2rem;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    font-size: 3rem;
+    text-align: center;
+    background-color: rgb(29, 29, 61);
+    color:rgb(55, 233, 24)  ;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 4rem;
+    color:rgb(55, 233, 24);
+   
+    }
+.date{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        font-size: 1.5rem;
+        color:rgb(55, 233, 24);
+        margin-top: 1rem;
+}

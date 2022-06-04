@@ -1,0 +1,38 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    background-color: rgb(60, 95, 103);
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5rem;
+}
+.nav-bar{
+ width:100%;
+ position: fixed;
+ background: rgb(255, 97, 129);
+ display: flex;
+
+}
+.nav-bar .items{
+    justify-content: center;
+    align-content: space-between;
+}
+.nav-bar .items li{
+    
+    display: inline-block;
+    right: 0;
+
+}
+.nav-bar .pfl{
+    margin-left: 1rem;
+    font-size: 30px;
+    color:black;
+}
+.nav-bar .pfl span{
+    color:white;
+}
+a{
+    margin-left: 15px;
+    color: aliceblue;
+    text-decoration: none;
+}

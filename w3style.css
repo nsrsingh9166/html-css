@@ -1,0 +1,71 @@
+*{
+    background-color: brown;
+    color: white;
+    margin: 10px;
+}
+div h1{
+font-size: 3rem;
+text-decoration: solid;
+}
+h3{
+font-size: 1.5rem;
+text-decoration: none;
+}
+.h2 {
+    box-sizing: border-box;
+    font-size: 1.5 rem;
+    background-color: white;
+    color: brown;
+    margin:0px;
+    margin-top: 15px;
+}
+.para{
+      font-size: 1.3rem;
+      background-color: white;
+      color: rgb(15, 15, 15);
+      margin: 0px;
+}
+.div{
+    background-color: white;
+    color: rgba(207, 61, 61,0.1);
+    border: 4px solid dashed;
+    margin: 0 auto;
+    padding-top: 20px;
+    /* display: grid; */
+    /* float: left; */
+}
+a{
+    background-color: white;
+    color: black;
+    text-decoration: None;
+    cursor: pointer;
+}
+a:hover{
+    color:blue;
+    font-size: 35px;
+}
+button{
+    /* display: inline-block; */
+    display: block;
+    width: 90px;
+    border-radius: 30px;
+
+}
+a::after{
+    content:","
+  }
+  a{
+    margin-left: 0;
+  }
+/* .para2
+{
+    
+
+} */
+button{
+    /* position: absolute; */
+    /* overflow: right; */
+    display: block;
+}
+
+

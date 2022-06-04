@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+   
+    <title>MINI CALCULATOR</title>
+    <script src="./script2.js"></script>
+    <script src="https://kit.fontawesome.com/61b50c5721.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>MINI CALCULATOR</h1>
+    <!-- <label for="disp">0</label> -->
+    
+    <div class="container">
+        <div class="grid-items-1"><input type="text" id="disp"  readonly placeholder="0"></input></div>   
+        <div class="grid-items"> <button class="btn">%</button> </div>
+        <div class="grid-items"><button class="btn">CE</button></div>
+        <div class="grid-items"><button class="btn" onclick="clr()" id="clr">C</button></div>
+        <div class="grid-items"><button class="btn" onclick="backsp()"><span class="material-icons-outlined">
+                    backspace</span></button>
+        </div>
+        <div class="grid-items"><button class="btn" onclick="divideByOne()">1/x</button></div>
+        <div class="grid-items"><button class="btn"id='sqr' onclick="square()">x<sup>2</sup></button></div>
+        <div><button class="btn" onclick="cube()">x<sup>3</sup></button></div>
+        <div class="grid-items"><button class="btn" id="div" onclick="dispOn('/')"><i class="fa-solid fa-divide"></i>     </span></button></div>
+        <div class="grid-items"> <button class="btn" value="7" onclick="dispOn('7')">7</button> </div>
+        <div class="grid-items"> <button class="btn" value="8" onclick="dispOn('8')">8</button> </div>
+        <div class="grid-items"><button class="btn" value="9" onclick="dispOn('9')">9</button></div>
+        <div class="grid-items"> <button class="btn" value="*" onclick="dispOn('*')">*</button> </div>
+
+        <div class="grid-items"><button class="btn" value="4" onclick="dispOn('4')">4</button></div>
+        <div class="grid-items"><button class="btn" value="5" onclick="dispOn('5')">5</button></div>
+        <div class="grid-items"><button class="btn" value="6" onclick="dispOn('6')">6</button></div>
+        <div class="grid-items"><button class="btn" onclick="dispOn('-')">-</button></div>
+        <div class="grid-items"><button class="btn" value="1" onclick="dispOn('1')">1</button></div>
+        <div class="grid-items"><button class="btn" value="2" onclick="dispOn('2')">2</button></div>
+        <div class="grid-items"><button class="btn" value="3" onclick="dispOn('3')">3</button></div>
+        <div class="grid-items"><button class="btn" onclick="dispOn('+')">+</button></div>
+        <div class="grid-items"><button class="btn"onclick=plusMinus()>+/-</button></div>
+        <div class="grid-items"><button class="btn" value="0" onclick="dispOn('0')">0</button></div>
+        <div class="grid-items"><button class="btn" onclick="dispOn('.')">.</button></div>
+        <div class="grid-items"><button class="btn" id="equal" onclick="Eval()" onmouseenter="myFocus()">=</button></div>
+    </div>
+</body>
+
+</html>

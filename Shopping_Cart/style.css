@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100;1,200&family=Roboto:ital,wght@0,400;0,700;1,300&family=Supermercado+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,101,1) 55%, rgba(0,212,255,1) 100%);
+    position: relative;
+    
+}
+.navbar{
+    position: sticky;
+  top: 0;
+    display: flex;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 36%, rgba(0,212,255,1) 100%);
+    color: whitesmoke;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+    flex-direction: row;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.subnav{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 60px;
+    padding: 20px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    /* margin-left: 20px; */
+}
+input[type="search"]::placeholder { 
+    width:450px;
+    padding: 15px;
+}
+ .search{
+    position: relative;
+    display: flex;
+    border-radius: 5px;
+ }
+ .search-logo{
+     position: absolute;
+     right:10px;
+     /* top:-5px; */
+     color:black;
+     justify-content: center;
+     align-items: center;
+ }
+
+.txt{
+    color: white;
+    
+}
+.cart{
+    color:rgb(18, 66, 238);
+    font-size: 40px;
+    /* background-color: red; */
+    margin-right: 20px;
+    position: relative;
+}
+.cartamt{
+    position: absolute;
+    right:-10px;
+    top:-5px;
+    /* background-color: red; */
+    color: rgb(0, 4, 255);
+    font-size: 20px;
+}
+/* section{
+    border: 3px solid currentColor;
+    margin: auto;
+    margin: auto 50px;
+} */
+.text{
+    text-align: center;
+    margin: 15px auto;
+    font-size: 1.5rem;
+    color:white;
+}
+.shopping{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+.item{
+    border: 3px solid crimson;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.title{
+    margin-top: 10px;
+    color:rgb(31, 215, 53);
+    text-align: center;
+}
+.item img{
+    border-radius: 5px;
+    width: 195px;
+    height: 200px;
+}
+/* .shopping:hover{
+    
+    animation: all .1s ease;
+} */
+.btnarrange{
+    display: flex;
+    justify-content: flex-start;
+}
+.btn{
+    cursor: pointer;
+    width:90px;
+    /* height: 55px; */
+    display: inline;
+    background-color: red;
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 15px auto;
+    letter-spacing: 1.5px;
+    box-shadow: 2px 2px 5px currentColor;
+    font-size: .8rem;
+}
+.btn i{
+    padding: 5px;
+}
+.btn:hover{
+    animation: all .4s ease;
+    box-shadow: 3px 3px 6px white;
+    font-size: .88rem;
+    color: white;
+}
+ .desc{
+    color: white;
+    font-size: 12px;
+}
+a{
+    color:white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/**
+* !About Us Styling
+**/
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.txt1{
+    background-color: rgb(248, 180, 70);
+    /* justify-content: center; */
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+.head{
+    place-items: center;
+}
+.img{
+    position: relative;
+    height: 400px;
+    /* position: -webkit-sticky; */
+}
+.a1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color:white;
+   
+}
+.a2{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.desc-aboutUs{
+
+    padding:75px;
+    color:black;
+    background-color: white;
+
+}
+.abt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(227, 117, 207);
+    text-align: center;
+   
+}
+.bg{
+    background-color: rgb(249, 95, 95);
+    
+    padding: 35px;
+}
+.about{
+     position:relative; 
+    transform: rotatez(-90deg);
+    font-size: 4rem;
+    padding: 35px;
+    
+}
+.head-rt{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.a3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    height: 500px;
+    gap: 50px;
+    background-color: white;
+  justify-content: center;
+  align-items: center;
+    
+}
+.txt2{
+    color:blueviolet;
+    font-size: 3rem;
+    background-color: white;
+}
+.myimg{
+    width: 400px;
+    border-radius: 50%;
+    position: relative;
+}
+h2{
+    text-align: center;
+    color:rgb(20, 159, 22);
+}
+.txt5{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.sbscribe{
+    display: flex;
+    
+}
+.inpt{
+    box-shadow: 2px 2px 4px currentColor;
+    width:350px;
+    height:50px;
+}
+.hd h2{
+    color:black;
+}
+input[type="email"]::placeholder { 
+    
+    padding: 15px;
+}
+.txt5 .bi{
+    position: relative;
+   
+    color:rgb(0, 0, 255);
+    font-size: 2.5rem;
+    place-items: center;
+    background-color: black;
+}
+
+.soci-med{
+    display: flex;
+    gap: 50px;
+}
+.ftyi{
+    font-size: .5rem;
+    padding: 5px;
+}
+.ftyl{
+    cursor: pointer;
+    /* border-radius: 50%; */
+}

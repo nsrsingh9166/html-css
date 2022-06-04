@@ -1,0 +1,19 @@
+*{
+    background-color: #12da12;
+}
+h1{
+    /* background-color: rgba(red, green,#ad12, 0.5); */
+    /* width: 55%; */
+    color:wheat;
+}
+p{
+    margin: 0px;
+    width: 90px;
+    display: inline;
+    background-color: blue;
+    color:aqua;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid rgb(216, 107, 107);
+    border-radius: 50px;
+}
